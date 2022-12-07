@@ -55,6 +55,7 @@ code-tools: true
 
 ```{r}
 #| warning: false
+#| echo: false
 
 install.packages("readxl",repos = "http://cran.us.r-project.org")
 install.packages("tidyverse",repos = "http://cran.us.r-project.org")
@@ -73,6 +74,9 @@ library(readxl)
 ```
 
 ```{r}
+#| warning: false
+#| echo: false
+
 list.files("data/.")
 
 list.files("data/knusenti/KnuSentiLex-master/")
